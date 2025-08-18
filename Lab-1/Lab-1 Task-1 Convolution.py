@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # Load grayscale image
-img = cv2.imread('box.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('Lena.jpg', cv2.IMREAD_GRAYSCALE)
 h, w = img.shape
 
 # Add border to preserve edge during convolution (2 pixels for 5x5 kernel)
